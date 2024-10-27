@@ -193,5 +193,53 @@ margin-bottom: 24px;
 border: none;
 }
 
+/* responsive styles */
+/* mobile device */
+.hide{
+    display: none;
+}
+@media  screen and (max-width:576px) {
+    .header{
+        background-image: none;
+    }
+    nav, nav>ul, .banner,
+    .about-items, .skills-container, .resume-container,
+    footer {
+        flex-direction: column;
+    }
+    nav>ul{
+        gap: 10px;
+    }
+    .banner .banner-profile-pic{
+        width: 100%;
+    }
+    .banner, #what-i-do-description {
+        padding: 20px;
+    }
+    footer, .about{
+        padding: 10px;
+    }
+    .btn-primary{
+        margin-bottom: 15px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    .contact input[type="text"],
+    .contact input[type="email"], textarea{
+        width: 80%;
+    }
+    
+}
 
+@media  screen and (min-width:576px)and (max-width:960px)
+ {
+    footer{
+        padding: 30px;
+    }
+    .btn-primary{
+
+        margin-bottom: 15px;
+    }
+}
 
