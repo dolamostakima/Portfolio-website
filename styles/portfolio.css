@@ -202,7 +202,7 @@ border: none;
     .header{
         background-image: none;
     }
-    nav, nav>ul, .banner,
+    nav, nav>ul, .header, .banner,
     .about-items, .skills-container, .resume-container,
     footer {
         flex-direction: column;
